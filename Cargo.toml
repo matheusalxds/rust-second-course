@@ -1,0 +1,17 @@
+[package]
+name = "rust-backend-course-two"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-cors = "0.7.0"
+actix-web = "4.7.0"
+anyhow = "1.0.86"
+dotenv = "0.15.0"
+serde = { version = "1.0.203", features = ["derive"] }
+tiberius = { version = "0.12.2", features = ["chrono", "time", "tds73"] }
+tokio = { version = "1.38.0", features = ["full"] }
+tokio-util = { version = "0.7.11", features = ["compat"] }
+validator = { version = "0.18.1", features = ["derive"] }
